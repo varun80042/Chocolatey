@@ -1,0 +1,40 @@
+name: ihp
+description: A new Flutter project.
+
+publish_to:
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  pdf: ^3.10.4
+  path_provider: ^2.1.1
+  open_file: ^3.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.2.19
+  flutter_launcher_icons: ^0.13.1
+
+flutter_native_splash:
+  android: true
+  ios: true
+  color: "#EA7724"
+  image: "assets/images/chocolatey.png"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/chocolatey.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
